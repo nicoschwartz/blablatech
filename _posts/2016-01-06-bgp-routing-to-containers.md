@@ -124,7 +124,7 @@ Edge routers were knowing different routes, but with different as-paths (non-eli
 
 ## Workarounds
 
-We though about several workarounds: 
+We thought about several workarounds: 
 
 * bgp multihop
 * route server
@@ -154,7 +154,7 @@ Another idea: rather than using a non-transitive attribute like `med` is, what a
 
 ### ExaZK
 
-Since the best idea we had implied to modify `healthcheck`'s source code, we though it would be worth writing our own plugin, and to connect it directly to our service directory.
+Since the best idea we had implied to modify `healthcheck`'s source code, we thought it would be worth writing our own plugin, and to connect it directly to our service directory.
 
 Indeed, in our container oriented infrastructure, orchestration of the containers (instancing, quantity, deployment ...) is highly relying on `ZooKeeper`.
 
